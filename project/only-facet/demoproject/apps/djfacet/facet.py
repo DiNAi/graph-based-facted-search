@@ -4,7 +4,7 @@ from fb_utils.utils import *
 from djfacet.constants import *
 
 #
-# Facet class : abstracts a single facet ('color') within a group ('car') 
+# Facet class : abstracts a single facet ('color') within a group ('car')
 #
 
 class Facet(object):
@@ -15,7 +15,7 @@ class Facet(object):
         facetvalues = a list of facetvalues objects
         originalModel = the django model that the facet depends on (if there's one)
         originalAttribute = the model field used for creating/querying facet-values ['surname' for the 'Person' model]
-        displayAttribute = the model field used for displaying facet-values	 [e.g. 'full surname' for the 'Person' model]
+        displayAttribute = the model field used for displaying facet-values  [e.g. 'full surname' for the 'Person' model]
         behaviour = definition of the query-paths to each of the result-types. A list of dicts:
                         # 'behaviour' : [ {'resulttype' : 'people',
                         #				   'querypath' : "",
