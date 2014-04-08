@@ -1,9 +1,19 @@
 \chapter{SOLUTION OVERVIEW}
-This section is intend to be a brief overview of our solution. Unlike document-based relevance feedback mechanism which asks users to give feedback on the relevance of documents, our approach allows users to give feedback on document metadata fields. In this paper, each metadata field is called a facet, and a facet (f) with a specific value (v) is called a facet-value pair (f : v). Each facet-value pair represents a faceted constraint on returned documents, E.g., language:Chinese, format:ppt, subject:IR, genre:comedy.
+This section is intended to be a brief overview of our solution. Unlike document-based relevance feedback mechanism which asks users to give feedback on the relevance of documents, our approach allows users to give feedback on document metadata fields. In this paper, each metadata field is called a facet, and a facet (f) with a specific value (v) is called a facet-value pair (f : v). Each facet-value pair represents a faceted constraint on returned documents, E.g., language:Chinese, format:ppt, subject:IR, genre:comedy.
 
-\section{A Priority Queue Model for Facets}
-As a motivate example, let us consider a scenario that an user wants to find a restaurant where is near by a famous place she may want to visit after lunch.  
-A priority queue is a queue for which each element has an associated priority, and for which the dequeue operation always removes the lowest (or highest) priority item remaining in the queue. In this paper, each element in the queue presents for a chosen facet with interest score.
+\section{Higher-level Behavior Modeling}
+User's interests change over time, studies of user search behavior have a long history in Information and Library Science \cite{Bates1979}\cite{Rose}\cite{Spink2002}. However, different kinds of interests might be motivated by the same kind of interest at a higher abstraction level. That is, a user might posse interests at different abstraction level - the higher level interests are more general, while the lower-level ones are more specific. During a browse session, general interests are in the back of one's mind, while specific interests are the current foci. In this paper, we focus on implicit methods for incremental creating an ordered representation of user profiles. Utilizing an interest score, has been proven to be successful for the evolution of personal interest \cite{Sieg2007}. 
+
+
+\section{Priority Queue Model for Facets}
+In the traditional faceted search, each category is represented by a facet, user can choose different facets to drill down the search results, however, different facets directly present user's interests. As a motivate example, let us consider a scenario that an user wants to find a restaurant where is near by a famous place he/she may want to visit after lunch? In order to answer this question, the user needs to construct a complicated query to search and manually filters the search results. This example could show the main drawback of key-word based approach. To avoid overwhelming search results, we propose to use a priority queue model aims mainly to account for the user's interest score. 
+  
+A priority queue is a queue for which each element has an associated priority, and for which the dequeue operation always removes the lowest (or highest) priority item remaining in the queue. In this paper, each element in the queue presents for a chosen facet with interest score. 
+
+{\textbf Definition 1.} An chosen {\it facet} is presented by a entity in the priority queue. An {\it priority} contains a set of attribute-value paris <A, V> = {<ai, Vi>} where ai is an attribute name and Vi is a set of values {v, v2, ..., vk}. Each value vj belongs to Vi is either an atomic value.
+
+\section{THE DATA GRAPH MODEL}
+
 
 Quisque facilisis erat a dui. Nam malesuada ornare dolor. Cras gravida, diam sit amet rhoncus ornare, erat elit consectetuer erat, id egestas pede nibh eget odio. Proin tincidunt, velit vel porta elementum, magna diam molestie sapien, non aliquet massa pede eu diam. Aliquam iaculis. Fusce et ipsum et nulla tristique facilisis. Donec eget sem sit amet ligula viverra gravida. Etiam vehicula urna vel turpis. Suspendisse sagittis ante a urna. Morbi a est quis orci consequat rutrum. Nullam egestas feugiat felis. Integer adipiscing semper ligula. Nunc molestie, nisl sit amet cursus convallis, sapien lectus pretium metus, vitae pretium enim wisi id lectus. Donec vestibulum. Etiam vel nibh. Nulla facilisi. Mauris pharetra. Donec augue. Fusce ultrices, neque id dignissim ultrices, tellus mauris dictum elit, vel lacinia enim metus eu nunc.
 
