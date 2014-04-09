@@ -1,14 +1,62 @@
 \begin{thebibliography}{}
 
-\bibitem[Eigen, 1971]{Eigen1971}
-Eigen, M. (1971).
-\newblock Selforganization of matter and the evolution of biological
-  macromolecules.
-\newblock {\em Naturwissenschaften}, 58(10), 465--523.
+\bibitem[B.~Tan \& Zhai, 2006]{Tan2006}
+B.~Tan, X.~S. \& Zhai, C. (2006).
+\newblock Mining long-term search history to improve search accuracy.
+\newblock {\em In Proceedings of KDD}, (pp.\ 718--723).
+
+\bibitem[Bates, 1979]{Bates1979}
+Bates, M. (1979).
+\newblock Information search tactics.
+\newblock {\em Journal of the American Society for Information Science}, (pp.\
+  205--214).
+
+\bibitem[D.E, ]{Rose}
+D.E, R.
+\newblock Reconciling information-seeking behavior with search user interfaces
+  for the web.
+\newblock {\em Journal of the American Society of Information Science and
+  Technology}.
+
+\bibitem[Debabrata~Dash, 2008]{Dash2008}
+Debabrata~Dash, e.~a. (2008).
+\newblock Dynamic faceted search for discovery-driven analysis.
+\newblock {\em CIKM}.
+
+\bibitem[Hearst, 2006]{Hearst2006}
+Hearst (2006).
+\newblock Clustering versus faceted categories for information exploration.
+\newblock {\em ACM}, 49(4).
+
+\bibitem[Hearst \& Stoica, 2009]{Hearst2009}
+Hearst, M.~A. \& Stoica, E. (2009).
+\newblock Nlp support for faceted navigation in scholarly collection.
+\newblock {\em Text and Citation Analysis for Scholarly Digital Libraries},
+  (pp.\ 62--70).
 
 \bibitem[Knuth, 1968]{Knuth1968}
 Knuth, D.~E. (1968).
 \newblock Semantics of context-free languages.
 \newblock {\em Mathematical Systems Theory}, 2(2), 127--145.
+
+\bibitem[Senjuti Basu~Roy, 2008]{Roy2008}
+Senjuti Basu~Roy, Haidong~Wang, G.~D. (2008).
+\newblock Minimum-effort driven dynamic faceted search in structured databases.
+
+\bibitem[Sieg~A, 2007]{Sieg2007}
+Sieg~A, Mobasher~B, B.~R. (2007).
+\newblock Representing context in representing context in web search with
+  ontological user profiles.
+\newblock {\em Model Using Context}, 4635, 439--452.
+
+\bibitem[Spink \& Saracevic, 2002]{Spink2002}
+Spink, A., J. B. W.~D. \& Saracevic, T. (2002).
+\newblock From e-sex to e-commerce: Web search changes.
+\newblock {\em IEEE Computer}, 35(3), 107--109.
+
+\bibitem[X.~Shen \& Zhai, 2005]{Shen2005}
+X.~Shen, B.~T. \& Zhai, C. (2005).
+\newblock Context-sensitive information retrieval using implicit feedback.
+\newblock {\em In Proceedings of SIGIR}, 05, 43--50.
 
 \end{thebibliography}

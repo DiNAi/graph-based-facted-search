@@ -10,44 +10,85 @@ A level-1 auxiliary file: chapters/appendixA.aux
 The style file: apalike2.bst
 A level-1 auxiliary file: endmatter/colophon.aux
 Database file #1: references.bib
-You've used 2 entries,
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "Eigen1971"
+Name 1 in "B. Tan, X. Shen, and C. Zhai" has a comma at the end for entry Tan2006
+while executing---line 1191 of file apalike2.bst
+Name 1 in "B. Tan, X. Shen, and C. Zhai" has a comma at the end for entry Tan2006
+while executing---line 1191 of file apalike2.bst
+Name 1 in "X. Shen, B. Tan, and C. Zhai" has a comma at the end for entry Shen2005
+while executing---line 1191 of file apalike2.bst
+Name 1 in "X. Shen, B. Tan, and C. Zhai" has a comma at the end for entry Shen2005
+while executing---line 1191 of file apalike2.bst
+Name 1 in "Spink, A., Jansen, B.J., Wolfram, D., and Saracevic, T." has a comma at the end for entry Spink2002
+while executing---line 1191 of file apalike2.bst
+Too many commas in name 1 of "Spink, A., Jansen, B.J., Wolfram, D., and Saracevic, T." for entry Spink2002
+while executing---line 1191 of file apalike2.bst
+Too many commas in name 1 of "Spink, A., Jansen, B.J., Wolfram, D., and Saracevic, T." for entry Spink2002
+while executing---line 1191 of file apalike2.bst
+Too many commas in name 1 of "Spink, A., Jansen, B.J., Wolfram, D., and Saracevic, T." for entry Spink2002
+while executing---line 1191 of file apalike2.bst
+Name 1 in "Spink, A., Jansen, B.J., Wolfram, D., and Saracevic, T." has a comma at the end for entry Spink2002
+while executing---line 1191 of file apalike2.bst
+Too many commas in name 1 of "Spink, A., Jansen, B.J., Wolfram, D., and Saracevic, T." for entry Spink2002
+while executing---line 1191 of file apalike2.bst
+Too many commas in name 1 of "Spink, A., Jansen, B.J., Wolfram, D., and Saracevic, T." for entry Spink2002
+while executing---line 1191 of file apalike2.bst
+Too many commas in name 1 of "Spink, A., Jansen, B.J., Wolfram, D., and Saracevic, T." for entry Spink2002
+while executing---line 1191 of file apalike2.bst
+Name 1 in "B. Tan, X. Shen, and C. Zhai" has a comma at the end for entry Tan2006
+while executing---line 1266 of file apalike2.bst
+Warning--empty year in Rose
+Warning--empty journal in Roy2008
+Name 1 in "Spink, A., Jansen, B.J., Wolfram, D., and Saracevic, T." has a comma at the end for entry Spink2002
+while executing---line 1266 of file apalike2.bst
+Too many commas in name 1 of "Spink, A., Jansen, B.J., Wolfram, D., and Saracevic, T." for entry Spink2002
+while executing---line 1266 of file apalike2.bst
+Too many commas in name 1 of "Spink, A., Jansen, B.J., Wolfram, D., and Saracevic, T." for entry Spink2002
+while executing---line 1266 of file apalike2.bst
+Too many commas in name 1 of "Spink, A., Jansen, B.J., Wolfram, D., and Saracevic, T." for entry Spink2002
+while executing---line 1266 of file apalike2.bst
+Name 1 in "X. Shen, B. Tan, and C. Zhai" has a comma at the end for entry Shen2005
+while executing---line 1266 of file apalike2.bst
+You've used 11 entries,
             2229 wiz_defined-function locations,
-            535 strings with 4385 characters,
-and the built_in function-call counts, 743 in all, are:
-= -- 76
-> -- 14
-< -- 2
-+ -- 4
-- -- 4
-* -- 62
-:= -- 131
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 12
-chr.to.int$ -- 2
-cite$ -- 2
-duplicate$ -- 28
-empty$ -- 61
-format.name$ -- 6
-if$ -- 143
+            594 strings with 5623 characters,
+and the built_in function-call counts, 3993 in all, are:
+= -- 408
+> -- 101
+< -- 14
++ -- 30
+- -- 30
+* -- 294
+:= -- 682
+add.period$ -- 32
+call.type$ -- 11
+change.case$ -- 70
+chr.to.int$ -- 11
+cite$ -- 13
+duplicate$ -- 175
+empty$ -- 300
+format.name$ -- 49
+if$ -- 805
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 2
-newline$ -- 13
-num.names$ -- 6
-pop$ -- 6
+missing$ -- 11
+newline$ -- 57
+num.names$ -- 33
+pop$ -- 53
 preamble$ -- 1
-purify$ -- 12
+purify$ -- 70
 quote$ -- 0
-skip$ -- 23
+skip$ -- 154
 stack$ -- 0
-substring$ -- 74
-swap$ -- 2
-text.length$ -- 0
+substring$ -- 306
+swap$ -- 35
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 12
-warning$ -- 0
-while$ -- 8
+type$ -- 66
+warning$ -- 2
+while$ -- 37
 width$ -- 0
-write$ -- 28
+write$ -- 139
+(There were 18 error messages)

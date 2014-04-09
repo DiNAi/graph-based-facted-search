@@ -2,9 +2,14 @@
 \contentsline {chapter}{Dedication}{5}{section*.5}
 \contentsline {chapter}{Acknowledgments}{5}{section*.6}
 \contentsline {chapter}{\numberline {0}Introduction}{6}{chapter.0}
-\contentsline {chapter}{\numberline {1}The title of chapter one}{10}{chapter.1}
-\contentsline {chapter}{\numberline {2}The title of chapter two}{36}{chapter.2}
-\contentsline {chapter}{\numberline {3}Consectetuer adipiscing elit}{41}{chapter.3}
-\contentsline {chapter}{\numberline {4}Conclusion}{78}{chapter.4}
-\contentsline {chapter}{Appendix \numberline {A}Some extra stuff}{82}{Appendix.1.A}
-\contentsline {chapter}{References}{86}{chapter*.9}
+\contentsline {chapter}{\numberline {1}Related Work}{10}{chapter.1}
+\contentsline {chapter}{\numberline {2}SOLUTION OVERVIEW}{37}{chapter.2}
+\contentsline {section}{\numberline {2.1}Higher-level Behavior Modeling}{38}{section.2.1}
+\contentsline {section}{\numberline {2.2}Priority Queue Model for Facets}{38}{section.2.2}
+\contentsline {section}{\numberline {2.3}THE DATA GRAPH MODEL}{39}{section.2.3}
+\contentsline {chapter}{\numberline {3}Only-facets exploratory search}{41}{chapter.3}
+\contentsline {section}{\numberline {3.1}The user interface for exploratory search}{42}{section.3.1}
+\contentsline {section}{\numberline {3.2}Process workflow of faceted search}{43}{section.3.2}
+\contentsline {chapter}{\numberline {4}Conclusion}{44}{chapter.4}
+\contentsline {chapter}{Appendix \numberline {A}Some extra stuff}{48}{Appendix.1.A}
+\contentsline {chapter}{References}{52}{chapter*.9}
