@@ -5,18 +5,21 @@
 
 \chapter{Related Work}
 
-Document-based relevance feedback is one of the most widely used explicit feedback mechanisms. In this scenario, users are asked to provide feedback on the relevance of delivered documents. Many approaches have been proposed to incorporate document relevance feedback into retrieval. 
+%Document-based relevance feedback is one of the most widely used explicit feedback mechanisms. In this scenario, users are asked to provide feedback on the relevance of delivered documents. Many approaches have been proposed to incorporate document relevance feedback into retrieval. 
+
+Recommender systems suffer from the cold start problem of a new user who start with an empty profile and encounters a difficulty of communication with his community members. Many approaches have been proposed \cite{Leung2007, Gao2002} as the approach of Z. Zaier\cite{Zaier2010} who has studied the challenges of recommender systems namely the cold start. In our work, we leverage the graph method for exploring related entities based on the user's interest score. However, there are little researches based on graphs for the cold start problem in faceted search area. 
+
+According to the same perspective and to solve the problem of cold start document, Senjuti Basu Roy and Haidong Wang \cite{Roy2008} have proposed another approach based on minimum effort drill-down. Roy proposed to ask searchers to make relevance judgements about returns objects and then executing a revised query based on the judgement. This solution provides a dialog with the user to extract more information from her on other desired attribute values. This approach depends on user interaction which requires strong human participation in a more continuous and exploratory process. However practice shows that people are often unwilling to take the added step to provide feedbacks when the search paradigm is the classic turn-taking model. Our developed approach differs from this prior work along several key dimensions: (a) our proposed approach considers implicit feedback based on users' choice, (b) our proposed approach is graph based and depends on user interaction, (c) our algorithms can work in conjunction with available ranking functions.
+
+Also, several approaches have been proposed to actively select good documents for users to provide relevance feedback. The simplest way is to choose the top ranked documents since they are most probably relevant. 
 
 Many existing search engines equate user information needs with a keyword query, assuming that a user knows what words to use to best describe his or her information need. However, a user’s information need is characterized by complex user criteria that are not included in a simple keyword query. Relevance feedback is a commonly used query refinement technique that can be traced back to 1960s. The basic idea is to rely on user interactions to better capture the user information need. Cold start problem will cause too many search result – a phenomenon commonly referred to as “information overload”.  
 
-For example, Roy proposed to ask searchers to make relevance judgements about returns objects and then executing a revised query based on the judgement\cite{Roy2008}. They developed a dialog with the user to extract more information from her on other desired attribute values. This approach depends on user interaction which requires strong human participation in a more continuous and exploratory process. However practice shows that people are often unwilling to take the added step to provide feedbacks when the search paradigm is the classic turn-taking model. Also, several approaches have been proposed to actively select good documents for users to provide relevance feedback. The simplest way is to choose the top ranked documents since they are most probably relevant. 
+
 
 Another thread of work is on discovery-driven analysis by adopting a navigational way of setting the expectation and p-value based measure in discovering interesting pattern. This work focuses on dynamically adapting facets by providing richer insight into the vast data sets\cite{Dash2008}. The result of their research shows that the users thought the navigational way is useful.
 
-The greatest advantage of faceted search is that it meet the information seeker's desire for a user interface that organized search results into meaningful groups, in order to help make sense of the results, and to help decide what to do next \cite{Hearst2006}. 
-helps user interaction and information visualization deals with visual ways to present information \cite{}. It can be thought as a step after categorization to the further reduce information overload: given the category structure proposed in this paper, we can use visualization techniques (using shape, color, size and arrangements) to visually display the tree  \cite{Eigen1971, Knuth1968}.
-
-\newthought{User Interaction}: Another thread of work if on finding user‚Äôs interest by asking user a set of related questions which works as a 
+%The greatest advantage of faceted search is that it meet the information seeker's desire for a user interface that organized search results into meaningful groups, in order to help make sense of the results, and to help decide what to do next \cite{Hearst2006}. 
 
 % For an example of a full page figure, see Fig.~\ref{fig:myFullPageFigure}.
 
