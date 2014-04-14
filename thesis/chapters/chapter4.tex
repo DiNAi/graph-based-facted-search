@@ -1,0 +1,37 @@
+\chapter{Evaluation}
+
+In this section an evaluation method for only-facets search scenario and the proposed heuristic is presented including a discussion of the results. Evaluation of traditional faceted search systems is based on rather quantitative than qualitative measurements of the achieved retrieval result. The retrieval results are compared to a ground truth resulting in an objective assessment of the achieved quality. i.e., by statical classification such as recall and precision.
+
+While the evaluation of traditional faceted search systems do focus on quantitative measures for the quality of retrieval results, the evaluation of OnlyFaceted search strongly depends on qualitative measurements
+
+Concerning the definition of faceted search, the user does not always exactly know what documents she is looking for. This originates from the fact that the user may not be familiar with the search topic. Perhaps she does not know, where to begin and where to end the search, as well as she might not be sure about the search goal in the first place. Thus, it is rather difficult to define an objective ground truth for given faceted search tasks, because individual search strategies, motivations, and interests cause ground truth also to depend 
+
+\section{Discussion}
+
+According to our evaluation results, general GUI usability as well as the user's satisfaction with the quality of the achieved search results has been determined. The evaluation can be further refined by focusing on these two different aspects separately. 
+
+
+
+Faceted search aims to broaden the scope of search by suggesting related terms, concepts and resources. Our approach uses priority queue and data graph to support the search process by exposing additional information about indexed resources.
+
+Figure 1 depicts the result of a query after the user clicking on the facets - restaurant and place. The exploratory search GUI suggests a list of related entities. When the user clicks multiple facets, the labels of the mapped entities grouped by their connecting properties. 
+
+By clicking on, e.g. {\it 'BLACHBL} in the faceted search GUI, a new search is issued and the GUI switches to the newly selected entity showing its related entities and properties (cf. Fig. 2). This supplementary information includes, as e. g., related places (birth place, work place, etc), predecessor and successor in the presidential office, or Barack Obama’s residence.
+
+To retain previous actions, a history list (4) provides links to previous searches. Optionally, the user may activate an additional preview of the search results evoked by a related entity when clicking on it (5). Moving the mouse pointer over these previews causes a popup to show brief information about the video resource (6).
+
+\section{Process workflow of faceted search}
+
+To enable exploratory search as outlined in the previous sections a three-step procedure has been devised: (1) each facet of the user query is mapped to one hits queue, (2) mapped entities are cross-checked with the repository, and (3) for each resulting entity the most imported related resources are determined.
+
+The following sections encompass the workflow stages in detail.
+
+\subsection{Mapping Queries to  Hits Queue}
+
+To map interest score to entities a hits queue is generated within the interaction processing while the users keep clicking on the different facets. The intermediate data is rather computational intensive, as users can dynamically change their preferences during the time. The hits queue is implemented as a priority queue and comprises a list . Furthermore, the number of hits, when clicking for the entity in the facets search, is stored as freq({si}). Hence, the gazetteer is defined as set of (sys net, URI, hits)-tuple:{({si}, uri, freq{si)}.
+
+\subsetion{Discovering related entities}
+
+Related entities are determined by the application of a heuristic based on ranking for users interest score of a given facet f. For a given entity \it e a related resource is initially defined as:
+r = {meta, {si}, l, rank}
+with meta representing the metadata of the related entity \mathrm{r}, \mathrm{{si}} the synset for the metadata, 

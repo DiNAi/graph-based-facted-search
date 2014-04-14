@@ -20,7 +20,7 @@ We model entities and references using a weighted undirected graph. A data graph
 	\item Each relationship between two nodes by a edge.
 	\item Each confidence score between two nodes by a weight (weight of the edge which links them).
 \end{itemize}
-Note that the edges weights are modeling interest relationships of similarity between the individual tastes which are not constant. In fact, these weights express the mutual trust between paris of actors. We chose to restrict the values of these indices between (-1and 1), where "1" is a very strong link between two users (positive relationship) and "-1" is a negative relationship.
+Note that the edges weights are modeling interest relationships of similarity between the individual tastes which are not constant. In fact, these weights express the mutual trust between paris of actors. We chose to restrict the values of these indices between (-1 and 1), where "1" is a very strong link between two users (positive relationship) and "-1" is a negative relationship.
 
 The trust indices can be defined in terms of the Pearson correlation coefficient \cite{Leung2007} which evaluates the relationship between two nodes. It ranges from 1 ( a perfect negative relationship) to +1 (a perfect positive relationship), with 0 stating that there is no relationship. The formula is as follows:
 

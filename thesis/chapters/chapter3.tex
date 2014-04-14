@@ -14,18 +14,18 @@ To retain previous actions, a history list (4) provides links to previous search
 
 \section{Process workflow of faceted search}
 
-To enable exploratory search as outlined in the previous sections a three-step procedure has been devised: (1) each facet of the user query is mapped to one or more ordered list, (2) mapped entities are cross-checked with the repository, and (3) for each resulting entity the most imported related resources are determined.
+To enable exploratory search as outlined in the previous sections a three-step procedure has been devised: (1) each facet of the user query is mapped to one hits queue, (2) mapped entities are cross-checked with the repository, and (3) for each resulting entity the most imported related resources are determined.
 
 The following sections encompass the workflow stages in detail.
 
-\subsection{Mapping Queries to  Clicks Queue}
+\subsection{Mapping Queries to  Hits Queue}
 
-To map user clicks to clicks queue is generated within the interaction processing while the users keep clicking on the facets. The intermediate data is rather computational intensive, as users can dynamically change their preferences during the time. The clicks queue is implemented as a priority queue and comprises a list . Furthermore, the number of hits, when clicking for the entity in the facets search, is stored as freq({si}). Hence, the gazetteer is defined as set of (sys net, URI, hits)-tuple:{({si}, uri, freq{si)}.
+To map interest score, a hits queue is generated within the interaction processing while the users keep clicking on the different facets. The intermediate data is rather computational intensive, as users can dynamically change their preferences during the time. The hits queue is implemented as a priority queue and comprises a list . Furthermore, the number of hits, when clicking for the entity in the facets search, is stored as \mathrm{freq({md})}. Hence, the gazetteer is defined as set of (metadata, hits):{({md}, freq{md)}.
 
-\subsection{Index alignment}
+\subsetion{Converting interest score to weight}
+As mentioned in chapter 2, to determine the weight score of the data graph by computing how often the metadata is clicked by the user , we need to map the computed metadata to the weight. To obtain this, 
 
-What still remains is to determine freq({si}) by computing how often the sunset is represented within the facets index. To obtain this
 
-\subsetion{Discovering related entities}
-
-Related entities are determined by the application of a heuristic based on ranking for users interest score of a given facet f. 
+Related entities are determined by the application of a heuristic based on ranking for users interest score of a given facet f. For a given entity \it e a related resource is initially defined as:
+r = {meta, {si}, l, rank}
+with meta representing the metadata of the related entity \mathrm{r}, \mathrm{{si}} the synset for the metadata, 
