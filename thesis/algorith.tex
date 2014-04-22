@@ -1,0 +1,62 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+
+\makeatletter
+\def\BState{\State\hskip-\ALG@thistlm}
+\makeatother
+
+\begin{document}
+\begin{algorithm}
+\caption{Exploration Model}\label{graph}
+\begin{algorithmic}[1]
+\Procedure{exploration}{$G, D, Q$}{}
+\While {$\texttt{Q is not empty}$}
+	\If {$D.label equals queue.metadata$}
+		\State $\textit{node} \gets \text{Q.dequeue()}
+		\State $\textit{G(\it{u})} \gets \texttt{name}
+		\State $\textit{G(\it{v})} \gets \texttt{score}$
+	\EndIf
+\EndWhile\label{euclidendwhile}
+
+\While {$\texttt{G is not empty}$}
+	\State $\it{u} = G.removeMin()$
+	\For {$\texttt{each vertex z adjacent to u and in G}$}
+		\If {$D(\it{u}) + w((\it{u, z})) < D(\it{z})$}
+			\State $D(\it{z}) \gets D(\it{u}) + w((\it{u, z}))$
+			\State $\text{update z in G}$
+		\EndIf
+	\Endfor
+\EndWhile
+
+\Return $\text{G}$
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+\end{document} 
+
+%\State $\max \gets first node of hits_queue$
+%\State $\result \gets entities of max$\Comment{We have the most interests category} 
+%	\For{$item in result$}
+%		\State
+%	\While{$h\not=0$}\Comment{We have the answer if r is 0}
+%\State $\textit{stringlen} \gets \text{length of }\textit{string}$
+%\State $i \gets \textit{patlen}$
+%\BState \emph{top}:
+%\If {$i > \textit{stringlen}$} \Return false
+%\EndIf
+%\State $j \gets \textit{patlen}$
+%\BState \emph{loop}:
+%\If {$\textit{string}(i) = \textit{path}(j)$}
+%\State $j \gets j-1$.
+%\State $i \gets i-1$.
+%\State \textbf{goto} \emph{loop}.
+%\State \textbf{close};
+%\EndIf
+%\State $i \gets i+\max(\textit{delta}_1(\textit{string}(i)),\textit{delta}_2(j))$.
+%\State \textbf{goto} \emph{top}.
+%\EndProcedure
+%\end{algorithmic}
+%\end{algorithm}
+%\end{document} 

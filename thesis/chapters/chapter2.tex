@@ -1,0 +1,27 @@
+\chapter{Higher Level Behavior Modeling}
+
+This chapter is intended to deal with the process of modeling user's higher abstraction level behavior and its implementation. To begin with, an introductory example is presented and the functionality of the prototype is explained.
+
+\section{Relationships of Lower Level and Higher Level Behavior}
+
+User's interests change over time, studies of user search behavior have a long history in Information and Library Science\cite{Bates1979}\cite{Rose}\cite{Spink2002}. When a user browses the web at different times, she could be accessing pages that pertain to different topics. For example, a user might be looking for research papers at one time and airfare information for conference travel at another. That is, a user can exhibit different kinds of interests at different times, which provides different contexts underlying a user's behavior. However, different kinds of interests might be motivated by the same kind of interest at a higher abstraction level. That is, a user might posse interests at different abstraction level - the higher level interests are more general, while the lower-level ones are more specific.
+
+During a browse session, general interests are in the back of one's mind, while specific interests are the current foci. In this paper, we focus on implicit methods for incremental creating an ordered representation of user profiles. Utilizing an interest score, has been proven to be successful for the evolution of personal interest \cite{Sieg2007}. 
+
+\section{Hits Queue Model for Facets}
+
+In the traditional faceted search, each category is represented by a facet, user can choose different facets to drill down the search results, however, different facets directly present user's interests. As a motivate example, let us consider a scenario that an user wants to find a restaurant where is near by a famous place she might want to visit after lunch. To find the most suitable restaurant, she needs to first search for a restaurant then clicks on different facets to filter the searched result. Multiple clicks present her interest score, however unless she could construct a complicated query, she could not easily represent her interest.
+
+This common scenario inspires us to map user's clicks into a {\it Hits Queue}. The underlying data structure is a priority queue. A priority queue is a queue for which each element has an associated priority, and for which the dequeue operation always removes the lowest (or highest) priority item remaining in the queue. In this paper, each element in the queue presents for a chosen facet with interest score. 
+
+An chosen {\it facet} is presented by a entity in the priority queue. An {\it priority} contains a set of attribute-value paris \mathbb{<M, V>}, where ai is an attribute name and Vi is a set of values {v, v2, ..., vk}. Each value vj belongs to Vi is either an atomic value. 
+
+\section{Mapping clicks to Hits Queue}
+
+To map \mathbb{<M, V>} pairs, the hits queue is generated with the interaction processing while the user clicking on different facets. As user dynamically change their preferences during the time, the hits queue . Furthermore, the number of hits, when clicking for the entity, is stored as \mathrm{freq(md)}. We construct the queue from users clicks as follows:
+\begin{itemize}
+\item From each click \mathrm{c} on a facets \mathrm{f}, add 
+\item 
+\end{itemize}
+
+
