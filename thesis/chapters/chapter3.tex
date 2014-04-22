@@ -1,0 +1,17 @@
+\chapter{The Search Results Modeling}
+
+\section{Data Graph Modeling}
+
+Let \it{D} be a set of search results. D can either be a base relation or a materalized view or it can be the result of query \it{Q}. A node in data graph D is assigned to a weight to determine its importance in the dataset. While in the hits queue, multiple facets stores user's interest score which determine the importance of the entity types, in the data graph they capture the relative importance among entities of the same type. 
+
+We model entities and references using a weighted undirected graph. A data graph {\it D} is a weighted undirected graph in which we repent:
+\begin{itemize}
+	\item Each entity of the search results by a node.
+	\item Each relationship between two nodes by a edge.
+	\item Each confidence score between two nodes by a weight (weight of the edge which links them).
+\end{itemize}
+Note that the edges weights are modeling interest relationships of similarity between the individual tastes which are not constant. In fact, these weights express the mutual trust between paris of actors. We chose to restrict the values of these indices between (-1 and 1), where "1" is a very strong link between two users (positive relationship) and "-1" is a negative relationship.
+
+\section{Exploration Model}
+
+We determine the edge weights in \it{D} using the interests score in the corresponding hits queue \it{Q}. We assign edge weight in the data graph using the weight of the most interested score among nodes in \it{Q}.
