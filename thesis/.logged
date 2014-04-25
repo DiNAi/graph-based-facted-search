@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.5.30)  8 APR 2014 20:56
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.5.30)  24 APR 2014 20:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1152,7 +1152,6 @@ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 8.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-Package caption Info: We need package `ragged2e' on input line 8.
  (./frontmatter/personalize.tex)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
@@ -1201,9 +1200,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  (./chapters/introduction.tex
 Chapter 0.
-Invalid UTF-8 byte or sequence at line 4 replaced by U+FFFD.
-Missing character: There is no � in font EB Garamond 12 Regular/OT:script=latn;
-language=DFLT;mapping=tex-text;+onum;+liga;!
 [6
 
 
@@ -1212,176 +1208,111 @@ language=DFLT;mapping=tex-text;+onum;+liga;!
 
  (./chapters/chapter1.tex
 Chapter 1.
-Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
-Missing character: There is no � in font EB Garamond 12 Regular/OT:script=latn;
-language=DFLT;mapping=tex-text;+onum;+liga;!
-Missing character: There is no � in font EB Garamond 12 Regular/OT:script=latn;
-language=DFLT;mapping=tex-text;+onum;+liga;!
-Missing character: There is no � in font EB Garamond 12 Regular/OT:script=latn;
-language=DFLT;mapping=tex-text;+onum;+liga;!
-Missing character: There is no � in font EB Garamond 12 Regular/OT:script=latn;
-language=DFLT;mapping=tex-text;+onum;+liga;!
 [10
 
 
 
 ]
-
-Package natbib Warning: Citation `Eigen1971' on page 11 undefined on input line
- 17.
-
-[11] [12]
-Overfull \hbox (6.93541pt too wide) in paragraph at lines 27--28
-\EU1/EBGaramond(3)/bx/n/12 eu libero sit amet quam egestas semper. Aenean ultri
-cies mi vitae est. Mauris placerat eleifend 
+Overfull \hbox (0.21945pt too wide) in paragraph at lines 16--17
+\EU1/EBGaramond(3)/bx/n/12 quite popular. The representation know as faceted me
+tadata is gaining great traction within 
  []
 
-[13]
-LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 10.25006pt on input line 37.
- [14]
-Overfull \hbox (4.23143pt too wide) in paragraph at lines 45--46
-\EU1/EBGaramond(3)/bx/n/12 cidunt rutrum. Nulla congue. Vivamus sit amet lorem 
-posuere dui vulputate ornare. Phasel- 
- []
-
-[15]
-Overfull \hbox (6.93541pt too wide) in paragraph at lines 49--50
-\EU1/EBGaramond(3)/bx/n/12 eu libero sit amet quam egestas semper. Aenean ultri
-cies mi vitae est. Mauris placerat eleifend 
- []
-
-[16]
-File: figures/fig1.pdf Graphic file (type QTm)
- <use  "figures/fig1.pdf" >
-LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/bx/n' will be
-(Font)              scaled to size 9.5907pt on input line 61.
-LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/bx/n' will be
-(Font)              scaled to size 7.99225pt on input line 61.
-LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 9.71375pt on input line 61.
-LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 8.09479pt on input line 61.
- [17] [18]
-Overfull \hbox (4.23143pt too wide) in paragraph at lines 73--74
-\EU1/EBGaramond(3)/bx/n/12 cidunt rutrum. Nulla congue. Vivamus sit amet lorem 
-posuere dui vulputate ornare. Phasel- 
- []
-
-[19]
-Overfull \hbox (6.93541pt too wide) in paragraph at lines 85--86
-\EU1/EBGaramond(3)/bx/n/12 eu libero sit amet quam egestas semper. Aenean ultri
-cies mi vitae est. Mauris placerat eleifend 
- []
-
-[20] [21]
-Overfull \hbox (4.23143pt too wide) in paragraph at lines 95--96
-\EU1/EBGaramond(3)/bx/n/12 cidunt rutrum. Nulla congue. Vivamus sit amet lorem 
-posuere dui vulputate ornare. Phasel- 
- []
-
-[22]
-Overfull \hbox (6.93541pt too wide) in paragraph at lines 99--100
-\EU1/EBGaramond(3)/bx/n/12 eu libero sit amet quam egestas semper. Aenean ultri
-cies mi vitae est. Mauris placerat eleifend 
- []
-
-[23] [24] [25]
-Overfull \hbox (4.23143pt too wide) in paragraph at lines 115--116
-\EU1/EBGaramond(3)/bx/n/12 cidunt rutrum. Nulla congue. Vivamus sit amet lorem 
-posuere dui vulputate ornare. Phasel- 
- []
-
-
-Overfull \hbox (6.93541pt too wide) in paragraph at lines 119--120
-\EU1/EBGaramond(3)/bx/n/12 eu libero sit amet quam egestas semper. Aenean ultri
-cies mi vitae est. Mauris placerat eleifend 
- []
-
-[26] [27] [28] [29] [30] [31]
-Overfull \hbox (4.23143pt too wide) in paragraph at lines 150--151
-\EU1/EBGaramond(3)/bx/n/12 cidunt rutrum. Nulla congue. Vivamus sit amet lorem 
-posuere dui vulputate ornare. Phasel- 
- []
-
-
-Overfull \hbox (6.93541pt too wide) in paragraph at lines 154--155
-\EU1/EBGaramond(3)/bx/n/12 eu libero sit amet quam egestas semper. Aenean ultri
-cies mi vitae est. Mauris placerat eleifend 
- []
-
-[32] [33] [34]
-Overfull \hbox (4.23143pt too wide) in paragraph at lines 170--171
-\EU1/EBGaramond(3)/bx/n/12 cidunt rutrum. Nulla congue. Vivamus sit amet lorem 
-posuere dui vulputate ornare. Phasel- 
- []
-
-) [35] [36]
+[11] [12]) [13]
 \openout2 = `chapters/chapter2.aux'.
 
  (./chapters/chapter2.tex
 Chapter 2.
-[37
+[14
 
 
 
-] [38]
-! Undefined control sequence.
-l.25 ...he Pearson correlation coefficient {\Leung
-                                                  2007} which evaluates the ...
+] [15]
+
+! LaTeX Error: \mathbb allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...ins a set of attribute-value paris \mathbb
+                                                  {<M, V>}, where ai is an a...
 
 ? 
-[39]) [40]
+
+! LaTeX Error: \mathbb allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 To map \mathbb
+                   {<M, V>} pairs, the hits queue is generated with the inte...
+
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...the entity, is stored as \mathrm{freq(md)}
+                                                  . We construct the queue f...
+
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \item From each click \mathrm{c}
+                                      on a facets \mathrm{f}, add
+? 
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...ch click \mathrm{c} on a facets \mathrm{f}
+                                                  , add
+? 
+) [16]
 \openout2 = `chapters/chapter3.aux'.
 
  (./chapters/chapter3.tex
 Chapter 3.
-[41
+[17
 
 
 
-]
-Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
-Missing character: There is no � in font EB Garamond 12 Regular/OT:script=latn;
-language=DFLT;mapping=tex-text;+onum;+liga;!
-) [42] [43]
+]) [18]
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex
 Chapter 4.
-[44
+[19
 
 
 
-]
-Overfull \hbox (6.93541pt too wide) in paragraph at lines 8--9
-\EU1/EBGaramond(3)/bx/n/12 eu libero sit amet quam egestas semper. Aenean ultri
-cies mi vitae est. Mauris placerat eleifend 
- []
-
-[45]) [46] [47]
+]) [20]
 \openout2 = `chapters/appendixA.aux'.
 
  (./chapters/appendixA.tex
 Appendix A.
-[48
+[21
 
 
 
-]
-Overfull \hbox (6.93541pt too wide) in paragraph at lines 8--9
-\EU1/EBGaramond(3)/bx/n/12 eu libero sit amet quam egestas semper. Aenean ultri
-cies mi vitae est. Mauris placerat eleifend 
- []
-
-[49]) [50] [51] (./dissertation.bbl) [52
+] [22]) [23] [24] (./dissertation.bbl [25
 
 
 
-]
+]) [26]
 \openout2 = `endmatter/colophon.aux'.
 
  (./endmatter/colophon.tex
@@ -1389,94 +1320,91 @@ File: endmatter/colophon.png Graphic file (type QTm)
 
 <use  "endmatter/colophon.png" >
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-[][] \EU1/EBGaramond(3)/bx/n/12 us-
+[][] \EU1/EBGaramond(3)/m/it/12 using L[]T[]X,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/bx/n/12 ing L[]T[]X, originally developed by
+\EU1/EBGaramond(3)/m/it/12 originally developed by Leslie
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/bx/n/12 Leslie Lamport and based on Don-
+\EU1/EBGaramond(3)/m/it/12 Lamport and based on Donald
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/bx/n/12 ald Knuth’s T[]X. The body text is set in
+\EU1/EBGaramond(3)/m/it/12 Knuth’s T[]X. The body text is set in 11
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/bx/n/12 11 point Egenolff-Berner Garamond, a
+\EU1/EBGaramond(3)/m/it/12 point Egenolff-Berner Garamond, a re-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/bx/n/12 revival of Claude Garamont’s humanist
+\EU1/EBGaramond(3)/m/it/12 vival of Claude Garamont’s humanist
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/bx/n/12 typeface. The above illustration, “Sci-
+\EU1/EBGaramond(3)/m/it/12 typeface. The above illustration, “Sci-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/bx/n/12 ence Experiment 02”, was created by Ben
+\EU1/EBGaramond(3)/m/it/12 ence Experiment 02”, was created by Ben
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/bx/n/12 Schlitter and released under [][]\EU1/EBGaramond(3)/
-m/sc/12 cc by-nc-
+\EU1/EBGaramond(3)/m/it/12 Schlitter and released under [][]\EU1/EBGaramond(3)/
+m/si/12 cc by-nc-nd
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/m/sc/12 nd 3.0[][]\EU1/EBGaramond(3)/bx/n/12 . A template th
-at can be used to
+\EU1/EBGaramond(3)/m/si/12 3.0[][]\EU1/EBGaramond(3)/m/it/12 . A template that 
+can be used to for-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/bx/n/12 format a PhD thesis with this look and
+\EU1/EBGaramond(3)/m/it/12 mat a PhD thesis with this look and feel
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/bx/n/12 feel has been released under the permis-
+\EU1/EBGaramond(3)/m/it/12 has been released under the permissive
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/bx/n/12 sive \EU1/EBGaramond(3)/m/sc/12 mit \EU1/EBGaramond(
-3)/bx/n/12 (\EU1/EBGaramond(3)/m/sc/12 x\EU1/EBGaramond(3)/bx/n/12 11) license,
- and can be found
+\EU1/EBGaramond(3)/m/si/12 mit \EU1/EBGaramond(3)/m/it/12 (\EU1/EBGaramond(3)/m
+/si/12 x\EU1/EBGaramond(3)/m/it/12 11) license, and can be found on-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/bx/n/12 online at [][]github.com/suchow/Dissertate[][]
+\EU1/EBGaramond(3)/m/it/12 line at [][]github.com/suchow/Dissertate[][] or
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/bx/n/12 or from its author, Jordan Suchow, at
+\EU1/EBGaramond(3)/m/it/12 from its author, Jordan Suchow, at [][]su-
  []
 
-[53
+[27
 
-]) [54]
-
-Package natbib Warning: There were undefined citations.
-
+]) [28]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
-(./dissertation.aux (./chapters/introduction.aux) (./chapters/chapter1.aux)
-(./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/conclusion.aux)
-(./chapters/appendixA.aux) (./endmatter/colophon.aux))
+ (./dissertation.aux (./chapters/introduction.aux)
+(./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux)
+(./chapters/conclusion.aux) (./chapters/appendixA.aux)
+(./endmatter/colophon.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 44.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 44.
 
@@ -1486,12 +1414,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
  ) 
 Here is how much of TeX's memory you used:
- 25230 strings out of 493938
- 479970 string characters out of 6148857
- 510640 words of memory out of 5000000
- 28133 multiletter control sequences out of 15000+600000
- 10645 words of font info for 75 fonts, out of 8000000 for 9000
+ 25236 strings out of 493938
+ 480029 string characters out of 6148857
+ 507640 words of memory out of 5000000
+ 28144 multiletter control sequences out of 15000+600000
+ 10629 words of font info for 73 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,6n,94p,1540b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,6n,94p,1100b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (56 pages).
+Output written on dissertation.pdf (30 pages).

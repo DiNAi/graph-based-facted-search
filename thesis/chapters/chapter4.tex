@@ -25,6 +25,32 @@ To map interest score, a hits queue is generated within the interaction processi
 \subsetion{Converting interest score to weight}
 As mentioned in chapter 2, to determine the weight score of the data graph by computing how often the metadata is clicked by the user , we need to map the computed metadata to the weight. To obtain this, 
 
+\begin{algorithm}
+\caption{Exploration Model}\label{graph}
+\begin{algorithmic}[1]
+\Procedure{exploration}{$G, D, Q$}{}
+\While {$\texttt{Q is not empty}$}
+	\If {$D.label = queue.metadata$}
+		\State $\textit{node} \gets \text{Q.dequeue()}$
+		\State $\textit{G(\it{u})} \gets \texttt{name}$
+		\State $\textit{G(\it{v})} \gets \texttt{score}$
+	\EndIf
+\EndWhile\label{euclidendwhile}
+
+\While {$\texttt{G is not empty}$}
+	\State $\it{u} = G.removeMin()$
+	\For {$\texttt{each vertex z adjacent to u and in G}$}
+		\If {$D(\it{u}) + w((\it{u, z})) < D(\it{z})$}
+			\State $D(\it{z}) \gets D(\it{u}) + w((\it{u, z}))$
+			\State $\text{update z in G}$
+		\EndIf
+	\EndFor
+\EndWhile
+
+\Return $\text{G}$
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
 
 Related entities are determined by the application of a heuristic based on ranking for users interest score of a given facet f. For a given entity \it e a related resource is initially defined as:
 r = {meta, {si}, l, rank}

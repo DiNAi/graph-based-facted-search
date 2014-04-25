@@ -13,9 +13,9 @@
 \begin{algorithmic}[1]
 \Procedure{exploration}{$G, D, Q$}{}
 \While {$\texttt{Q is not empty}$}
-	\If {$D.label equals queue.metadata$}
-		\State $\textit{node} \gets \text{Q.dequeue()}
-		\State $\textit{G(\it{u})} \gets \texttt{name}
+	\If {$D.label = queue.metadata$}
+		\State $\textit{node} \gets \text{Q.dequeue()}$
+		\State $\textit{G(\it{u})} \gets \texttt{name}$
 		\State $\textit{G(\it{v})} \gets \texttt{score}$
 	\EndIf
 \EndWhile\label{euclidendwhile}
@@ -27,7 +27,7 @@
 			\State $D(\it{z}) \gets D(\it{u}) + w((\it{u, z}))$
 			\State $\text{update z in G}$
 		\EndIf
-	\Endfor
+	\EndFor
 \EndWhile
 
 \Return $\text{G}$

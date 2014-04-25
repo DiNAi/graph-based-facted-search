@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  21 APR 2014 22:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  24 APR 2014 20:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -133,119 +133,28 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
+ [1
 
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 		\State
-              $\textit{G(\it{u})} \gets \texttt{name}
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 		\State
-              $\textit{G(\it{u})} \gets \texttt{name}
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 		\State
-              $\textit{G(\it{u})} \gets \texttt{name}
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.18 		\State $\textit{G(\it{u})} \gets
-                                        \texttt{name}
-? 
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 		\State
-              $\textit{G(\it{v})} \gets \texttt{score}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.19 		\State
-              $\textit{G(\it{v})} \gets \texttt{score}$
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.19 		\State
-              $\textit{G(\it{v})} \gets \texttt{score}$
-? 
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.19 		\State
-              $\textit{G(\it{v})} \gets \texttt{score}$
-? 
-! Undefined control sequence.
-l.30 	\Endfor
-             
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \ALG@b@2@EndWhile@0 
-l.31 \EndWhile
-              
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \ALG@b@2@EndProcedure@0 
-l.34 \EndProcedure
-                  
-? 
-
-! Package algorithmicx Error: Some blocks are not closed!!!.
-
-See the algorithmicx package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 \end{algorithmic}
-                      
-? 
-[1
-
-{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./algorith.aux) ) 
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./algo
+rith.aux) ) 
 Here is how much of TeX's memory you used:
- 1458 strings out of 493315
- 18370 string characters out of 6137904
+ 1455 strings out of 493315
+ 18306 string characters out of 6137904
  74054 words of memory out of 5000000
- 4953 multiletter control sequences out of 15000+600000
+ 4950 multiletter control sequences out of 15000+600000
  6550 words of font info for 25 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 27i,5n,20p,254b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmcsc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-t10.pfb>
-Output written on algorith.pdf (1 page, 86458 bytes).
+ 27i,5n,20p,254b,293s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+csc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
+pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
+b></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
+>
+Output written on algorith.pdf (1 page, 86406 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream
