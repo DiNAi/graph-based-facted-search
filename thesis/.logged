@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.5.30)  24 APR 2014 20:54
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.5.30)  25 APR 2014 14:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1152,6 +1152,7 @@ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 8.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+Package caption Info: We need package `ragged2e' on input line 8.
  (./frontmatter/personalize.tex)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
@@ -1228,91 +1229,55 @@ Chapter 2.
 
 
 ] [15]
-
-! LaTeX Error: \mathbb allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 ...ins a set of attribute-value paris \mathbb
-                                                  {<M, V>}, where ai is an a...
-
-? 
-
-! LaTeX Error: \mathbb allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 To map \mathbb
-                   {<M, V>} pairs, the hits queue is generated with the inte...
-
-? 
-
-! LaTeX Error: \mathrm allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 ...the entity, is stored as \mathrm{freq(md)}
-                                                  . We construct the queue f...
-
-? 
-
-! LaTeX Error: \mathrm allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 \item From each click \mathrm{c}
-                                      on a facets \mathrm{f}, add
-? 
-
-! LaTeX Error: \mathrm allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 ...ch click \mathrm{c} on a facets \mathrm{f}
-                                                  , add
-? 
-) [16]
+File: figures/fig1.png Graphic file (type QTm)
+ <use  "figures/fig1.png" >
+LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/bx/n' will be
+(Font)              scaled to size 9.5907pt on input line 26.
+LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/bx/n' will be
+(Font)              scaled to size 7.99225pt on input line 26.
+LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
+(Font)              scaled to size 9.71375pt on input line 26.
+LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
+(Font)              scaled to size 8.09479pt on input line 26.
+ [16] [17] [18]) [19]
 \openout2 = `chapters/chapter3.aux'.
 
- (./chapters/chapter3.tex
+
+(./chapters/chapter3.tex
 Chapter 3.
-[17
+[20
 
 
 
-]) [18]
+]) [21]
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex
 Chapter 4.
-[19
+[22
 
 
 
-]) [20]
+]) [23]
 \openout2 = `chapters/appendixA.aux'.
 
  (./chapters/appendixA.tex
 Appendix A.
-[21
+[24
 
 
 
-] [22]) [23] [24] (./dissertation.bbl [25
+]
+Overfull \hbox (6.93541pt too wide) in paragraph at lines 8--9
+\EU1/EBGaramond(3)/bx/n/12 eu libero sit amet quam egestas semper. Aenean ultri
+cies mi vitae est. Mauris placerat eleifend 
+ []
+
+[25]) [26] [27] (./dissertation.bbl [28
 
 
 
-]) [26]
+]) [29]
 \openout2 = `endmatter/colophon.aux'.
 
  (./endmatter/colophon.tex
@@ -1320,85 +1285,86 @@ File: endmatter/colophon.png Graphic file (type QTm)
 
 <use  "endmatter/colophon.png" >
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-[][] \EU1/EBGaramond(3)/m/it/12 using L[]T[]X,
+[][] \EU1/EBGaramond(3)/bx/n/12 us-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/m/it/12 originally developed by Leslie
+\EU1/EBGaramond(3)/bx/n/12 ing L[]T[]X, originally developed by
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/m/it/12 Lamport and based on Donald
+\EU1/EBGaramond(3)/bx/n/12 Leslie Lamport and based on Don-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/m/it/12 Knuth’s T[]X. The body text is set in 11
+\EU1/EBGaramond(3)/bx/n/12 ald Knuth’s T[]X. The body text is set in
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/m/it/12 point Egenolff-Berner Garamond, a re-
+\EU1/EBGaramond(3)/bx/n/12 11 point Egenolff-Berner Garamond, a
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/m/it/12 vival of Claude Garamont’s humanist
+\EU1/EBGaramond(3)/bx/n/12 revival of Claude Garamont’s humanist
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/m/it/12 typeface. The above illustration, “Sci-
+\EU1/EBGaramond(3)/bx/n/12 typeface. The above illustration, “Sci-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/m/it/12 ence Experiment 02”, was created by Ben
+\EU1/EBGaramond(3)/bx/n/12 ence Experiment 02”, was created by Ben
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/m/it/12 Schlitter and released under [][]\EU1/EBGaramond(3)/
-m/si/12 cc by-nc-nd
+\EU1/EBGaramond(3)/bx/n/12 Schlitter and released under [][]\EU1/EBGaramond(3)/
+m/sc/12 cc by-nc-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/m/si/12 3.0[][]\EU1/EBGaramond(3)/m/it/12 . A template that 
-can be used to for-
+\EU1/EBGaramond(3)/m/sc/12 nd 3.0[][]\EU1/EBGaramond(3)/bx/n/12 . A template th
+at can be used to
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/m/it/12 mat a PhD thesis with this look and feel
+\EU1/EBGaramond(3)/bx/n/12 format a PhD thesis with this look and
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/m/it/12 has been released under the permissive
+\EU1/EBGaramond(3)/bx/n/12 feel has been released under the permis-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/m/si/12 mit \EU1/EBGaramond(3)/m/it/12 (\EU1/EBGaramond(3)/m
-/si/12 x\EU1/EBGaramond(3)/m/it/12 11) license, and can be found on-
+\EU1/EBGaramond(3)/bx/n/12 sive \EU1/EBGaramond(3)/m/sc/12 mit \EU1/EBGaramond(
+3)/bx/n/12 (\EU1/EBGaramond(3)/m/sc/12 x\EU1/EBGaramond(3)/bx/n/12 11) license,
+ and can be found
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/m/it/12 line at [][]github.com/suchow/Dissertate[][] or
+\EU1/EBGaramond(3)/bx/n/12 online at [][]github.com/suchow/Dissertate[][]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\EU1/EBGaramond(3)/m/it/12 from its author, Jordan Suchow, at [][]su-
+\EU1/EBGaramond(3)/bx/n/12 or from its author, Jordan Suchow, at
  []
 
-[27
+[30
 
-]) [28]
+]) [31]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
  (./dissertation.aux (./chapters/introduction.aux)
@@ -1414,12 +1380,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
  ) 
 Here is how much of TeX's memory you used:
- 25236 strings out of 493938
- 480029 string characters out of 6148857
+ 25251 strings out of 493938
+ 480247 string characters out of 6148857
  507640 words of memory out of 5000000
- 28144 multiletter control sequences out of 15000+600000
- 10629 words of font info for 73 fonts, out of 8000000 for 9000
+ 28153 multiletter control sequences out of 15000+600000
+ 10637 words of font info for 74 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,6n,94p,1100b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,6n,94p,1100b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (30 pages).
+Output written on dissertation.pdf (33 pages).

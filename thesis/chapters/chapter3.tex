@@ -1,8 +1,43 @@
-\chapter{The Search Results Modeling}
+\chapter{The Search Results Model}
 
-\section{Data Graph Modeling}
+In this chapter, we present a retrieval model to incorporate user faceted feedback. Comparing traditional flat facet mechanism that just supports drill down on a certain category, we purpose a graph model to represent search results . This is because the flat facet mechanism is based on two assumptions: 1) users are very clear about what they are looking for, and thus are able to select facet-value pairs to restrict the returned result; 2) document facets are accurate and complete so that no potentially relevant document is filtered out in retrieval due to meta data errors. These two assumptions may not hold in text document retrieval. 
+
+\section{Data Graph Model}
+
+In a specific domain, some facets might be more informative that others. For example, for new articles, the information of time, locations, persons, and topics may be more important than publishers; for research papers, the subjects and keywords may be more informative that the file formats; for movies, the genres, casts and directors may be more informative than producers.
+
+Based on above motivations, we propose a data graph model. In this model, we learn a weight for each type of facet, which is expected to reflect the quality of the facet. Here, the quality may include user acquaintance, meta data accuracy, facet importance, etc.
 
 Let {\it D} be a set of search results. D can either be a base relation or a materialized view or it can be the result of query {\it Q}. A node in data graph {\it D} is assigned to a weight to determine its importance in the data set. While in the hits queue, multiple facets stores user's interest score which determine the importance of the entity types, in the data graph they capture the relative importance among entities of the same type. 
+
+\begin{algorithm}
+\caption{Exploration Model}\label{graph}
+\begin{algorithmic}[2]
+\Procedure{exploration}{$G, D, Q$}{}
+\While {$\texttt{Q is not empty}$}
+	\If {$D.label = queue.metadata$}
+		\State $\textit{node} \gets \text{Q.dequeue()}$
+		\State $\textit{G(\it{u})} \gets \texttt{name}$
+		\State $\textit{G(\it{v})} \gets \texttt{score}$
+	\EndIf
+\EndWhile\label{euclidendwhile}
+
+\While {$\texttt{G is not empty}$}
+	\State $\it{u} = G.removeMin()$
+	\For {$\texttt{each vertex z adjacent to u and in G}$}
+		\If {$D(\it{u}) + w((\it{u, z})) < D(\it{z})$}
+			\State $D(\it{z}) \gets D(\it{u}) + w((\it{u, z}))$
+			\State $\text{update z in G}$
+		\EndIf
+	\EndFor
+\EndWhile
+
+\Return $\text{G}$
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+
 
 We model entities and references using a weighted undirected graph. A data graph {\it D} is a weighted undirected graph in which we repent:
 \begin{itemize}
@@ -10,8 +45,5 @@ We model entities and references using a weighted undirected graph. A data graph
 	\item Each relationship between two nodes by a edge.
 	\item Each confidence score between two nodes by a weight (weight of the edge which links them).
 \end{itemize}
+
 Note that the edges weights are modeling interest relationships of similarity between the individual tastes which are not constant. In fact, these weights express the mutual trust between paris of actors. We chose to restrict the values of these indices between (-1 and 1), where "1" is a very strong link between two users (positive relationship) and "-1" is a negative relationship.
-
-\section{Exploration Model}
-
-We determine the edge weights in {\it D} using the interests score in the corresponding hits queue {\it Q}. We assign edge weight in the data graph using the weight of the most interested score among nodes in {\it Q}.

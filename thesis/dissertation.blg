@@ -69,45 +69,45 @@ Name 1 in "X. Shen, B. Tan, and C. Zhai" has a comma at the end for entry Shen20
 while executing---line 1266 of file apalike2.bst
 Warning--empty journal in Zaier2010
 Warning--empty journal in Zhai2001
-You've used 17 entries,
+You've used 18 entries,
             2229 wiz_defined-function locations,
-            629 strings with 6696 characters,
-and the built_in function-call counts, 6289 in all, are:
-= -- 642
-> -- 167
-< -- 22
-+ -- 52
-- -- 50
-* -- 465
-:= -- 1063
-add.period$ -- 49
-call.type$ -- 17
-change.case$ -- 110
-chr.to.int$ -- 17
-cite$ -- 22
-duplicate$ -- 275
-empty$ -- 467
-format.name$ -- 83
-if$ -- 1274
+            635 strings with 6762 characters,
+and the built_in function-call counts, 6629 in all, are:
+= -- 675
+> -- 174
+< -- 24
++ -- 56
+- -- 52
+* -- 486
+:= -- 1120
+add.period$ -- 52
+call.type$ -- 18
+change.case$ -- 116
+chr.to.int$ -- 18
+cite$ -- 23
+duplicate$ -- 294
+empty$ -- 492
+format.name$ -- 86
+if$ -- 1345
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 17
-newline$ -- 86
-num.names$ -- 51
-pop$ -- 87
+missing$ -- 18
+newline$ -- 91
+num.names$ -- 54
+pop$ -- 93
 preamble$ -- 1
-purify$ -- 110
+purify$ -- 116
 quote$ -- 0
-skip$ -- 243
+skip$ -- 259
 stack$ -- 0
-substring$ -- 480
-swap$ -- 57
-text.length$ -- 5
+substring$ -- 498
+swap$ -- 63
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 102
+type$ -- 108
 warning$ -- 5
-while$ -- 57
+while$ -- 60
 width$ -- 0
-write$ -- 212
+write$ -- 225
 (There were 27 error messages)
