@@ -5,10 +5,9 @@ A level-1 auxiliary file: chapters/introduction.aux
 A level-1 auxiliary file: chapters/chapter1.aux
 A level-1 auxiliary file: chapters/chapter2.aux
 A level-1 auxiliary file: chapters/chapter3.aux
+A level-1 auxiliary file: chapters/chapter4.aux
 A level-1 auxiliary file: chapters/conclusion.aux
-A level-1 auxiliary file: chapters/appendixA.aux
 The style file: apalike2.bst
-A level-1 auxiliary file: endmatter/colophon.aux
 Database file #1: references.bib
 Name 1 in "B. Tan, X. Shen, and C. Zhai" has a comma at the end for entry Tan2006
 while executing---line 1191 of file apalike2.bst
@@ -22,10 +21,6 @@ Name 1 in "Ka-Ping Yee, Kirsten Swearingen, Kevin Li, and Marti Hearst" has a co
 while executing---line 1191 of file apalike2.bst
 Name 1 in "Ka-Ping Yee, Kirsten Swearingen, Kevin Li, and Marti Hearst" has a comma at the end for entry Yee2003
 while executing---line 1191 of file apalike2.bst
-Name 1 in "K.W. Leung, S.C. Chan, and F. Chung" has a comma at the end for entry Leung2007
-while executing---line 1191 of file apalike2.bst
-Name 1 in "K.W. Leung, S.C. Chan, and F. Chung" has a comma at the end for entry Leung2007
-while executing---line 1191 of file apalike2.bst
 Name 1 in "W. Gao, S. Wang, and N. Cerrone" has a comma at the end for entry Gao2002
 while executing---line 1191 of file apalike2.bst
 Name 1 in "W. Gao, S. Wang, and N. Cerrone" has a comma at the end for entry Gao2002
@@ -48,12 +43,8 @@ Too many commas in name 1 of "Spink, A., Jansen, B.J., Wolfram, D., and Saracevi
 while executing---line 1191 of file apalike2.bst
 Name 1 in "B. Tan, X. Shen, and C. Zhai" has a comma at the end for entry Tan2006
 while executing---line 1266 of file apalike2.bst
-Warning--empty year in Rose
 Name 1 in "Ka-Ping Yee, Kirsten Swearingen, Kevin Li, and Marti Hearst" has a comma at the end for entry Yee2003
 while executing---line 1266 of file apalike2.bst
-Name 1 in "K.W. Leung, S.C. Chan, and F. Chung" has a comma at the end for entry Leung2007
-while executing---line 1266 of file apalike2.bst
-Warning--empty year in Leung2007
 Warning--empty journal in Roy2008
 Name 1 in "Spink, A., Jansen, B.J., Wolfram, D., and Saracevic, T." has a comma at the end for entry Spink2002
 while executing---line 1266 of file apalike2.bst
@@ -69,45 +60,45 @@ Name 1 in "X. Shen, B. Tan, and C. Zhai" has a comma at the end for entry Shen20
 while executing---line 1266 of file apalike2.bst
 Warning--empty journal in Zaier2010
 Warning--empty journal in Zhai2001
-You've used 18 entries,
+You've used 16 entries,
             2229 wiz_defined-function locations,
-            635 strings with 6762 characters,
-and the built_in function-call counts, 6629 in all, are:
-= -- 675
-> -- 174
-< -- 24
-+ -- 56
-- -- 52
-* -- 486
-:= -- 1120
-add.period$ -- 52
-call.type$ -- 18
-change.case$ -- 116
-chr.to.int$ -- 18
-cite$ -- 23
-duplicate$ -- 294
-empty$ -- 492
-format.name$ -- 86
-if$ -- 1345
+            624 strings with 6346 characters,
+and the built_in function-call counts, 6052 in all, are:
+= -- 619
+> -- 154
+< -- 22
++ -- 50
+- -- 46
+* -- 450
+:= -- 1012
+add.period$ -- 46
+call.type$ -- 16
+change.case$ -- 103
+chr.to.int$ -- 16
+cite$ -- 19
+duplicate$ -- 268
+empty$ -- 452
+format.name$ -- 76
+if$ -- 1235
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 18
-newline$ -- 91
-num.names$ -- 54
-pop$ -- 93
+missing$ -- 16
+newline$ -- 81
+num.names$ -- 48
+pop$ -- 78
 preamble$ -- 1
-purify$ -- 116
+purify$ -- 103
 quote$ -- 0
-skip$ -- 259
+skip$ -- 241
 stack$ -- 0
-substring$ -- 498
-swap$ -- 63
+substring$ -- 474
+swap$ -- 61
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 108
-warning$ -- 5
-while$ -- 60
+type$ -- 96
+warning$ -- 3
+while$ -- 56
 width$ -- 0
-write$ -- 225
-(There were 27 error messages)
+write$ -- 203
+(There were 24 error messages)

@@ -10,35 +10,6 @@ Based on above motivations, we propose a data graph model. In this model, we lea
 
 Let {\it D} be a set of search results. D can either be a base relation or a materialized view or it can be the result of query {\it Q}. A node in data graph {\it D} is assigned to a weight to determine its importance in the data set. While in the hits queue, multiple facets stores user's interest score which determine the importance of the entity types, in the data graph they capture the relative importance among entities of the same type. 
 
-\begin{algorithm}
-\caption{Exploration Model}\label{graph}
-\begin{algorithmic}[2]
-\Procedure{exploration}{$G, D, Q$}{}
-\While {$\texttt{Q is not empty}$}
-	\If {$D.label = queue.metadata$}
-		\State $\textit{node} \gets \text{Q.dequeue()}$
-		\State $\textit{G(\it{u})} \gets \texttt{name}$
-		\State $\textit{G(\it{v})} \gets \texttt{score}$
-	\EndIf
-\EndWhile\label{euclidendwhile}
-
-\While {$\texttt{G is not empty}$}
-	\State $\it{u} = G.removeMin()$
-	\For {$\texttt{each vertex z adjacent to u and in G}$}
-		\If {$D(\it{u}) + w((\it{u, z})) < D(\it{z})$}
-			\State $D(\it{z}) \gets D(\it{u}) + w((\it{u, z}))$
-			\State $\text{update z in G}$
-		\EndIf
-	\EndFor
-\EndWhile
-
-\Return $\text{G}$
-\EndProcedure
-\end{algorithmic}
-\end{algorithm}
-
-
-
 We model entities and references using a weighted undirected graph. A data graph {\it D} is a weighted undirected graph in which we repent:
 \begin{itemize}
 	\item Each entity of the search results by a node.

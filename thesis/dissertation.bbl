@@ -16,13 +16,6 @@ Broder, A. (2002).
 \newblock A taxonomy of web search.
 \newblock {\em SIGIR Forum}, (pp.\~36).
 
-\bibitem[D.E, ]{Rose}
-D.E, R.
-\newblock Reconciling information-seeking behavior with search user interfaces
-  for the web.
-\newblock {\em Journal of the American Society of Information Science and
-  Technology}.
-
 \bibitem[Hearst, 2006]{Hearst2006}
 Hearst (2006).
 \newblock Clustering versus faceted categories for information exploration.
@@ -38,13 +31,6 @@ Hearst, M.~A. \& Stoica, E. (2009).
 Ka-Ping~Yee, Kirsten~Swearingen, K.~L. \& Hearst, M. (2003).
 \newblock Faceted metadata for image search and browsing.
 \newblock {\em In Procs. of CHI}, 03.
-
-\bibitem[K.W.~Leung \& Chung, ]{Leung2007}
-K.W.~Leung, S.~C. \& Chung, F.
-\newblock Applying cross-level association rule mining to cold-start
-  recommendations.
-\newblock {\em IEEE/WIC/ACM International Conferences on Web Intelligence and
-  Intelligent Agent Technology Workshops}.
 
 \bibitem[Marchionini, 2006]{Marchionini2006}
 Marchionini, G. (2006).
