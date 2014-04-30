@@ -16,4 +16,5 @@ urlpatterns = patterns('djfacet.views',
     # ajax calls :
     # eg ..../djfacet/update_facet?filter=regionname_ArcticRegion&resulttype=religions&activefacet=regionname
     url(r'^update_facet$', 'update_facet', name='update_facet'),
+
 )

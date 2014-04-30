@@ -12,6 +12,13 @@ from djfacet.fb_utils.utils import *
 from djfacet.fb_utils.template import render_block_to_string
 from fb_utils.utils import djfacetlog
 
+def search(request):
+    """
+    Handler for basic query search bar.
+    """
+    djfacetlog("Search Bar")
+    print "Runs here"
+
 def home(request):
     """
     Main dispatcher: checks if it is the first page (no filters and not item) of the FB, and redirects accordingly.
@@ -22,11 +29,13 @@ def home(request):
     it tries to remove the wrong ones, recompose the url and issue a redirect command.
     In this case a HttpResponseRedirect is returned, not a tuple, so an if statement handles that situation.
     """
-    djfacetlog("Home view.")
+    print "Enter home view"
     query_filtersUrl = request.GET.getlist('filter')
     item = request.GET.get('item', None)
     resulttype = validate_ResType(request.GET.get('resulttype', None))
+    results = search_page(request)
 
+    """
     if DJF_SPLASHPAGE and not query_filtersUrl and not item:
         # redirect to the all-facets page
         return redirect("allfacets/?resulttype=%s" % resulttype)
@@ -37,6 +46,7 @@ def home(request):
     else:
         # it's classic search page
         results = search_page(request)
+    """
     # finally..
     if type(results) == type(('a tuple',)):
         template, context = results
