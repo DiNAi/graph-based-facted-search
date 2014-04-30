@@ -1,10 +1,15 @@
 {% load djf_tags %}
 
 <!-- result type starts -->
+<div id="tfheader">
+    <form id="tfnewsearch" method="get" action="http://www.google.com">
+    <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+    </form>
+    <div class="tfclear"></div>
+</div>
+
 <div class="line resultType">
     <ul class="inline">
-
-
         <li>Searching for:&nbsp;&nbsp;<b class="activeResType">{{ result_typeObj.label|capfirst }}</b>
             {% for test_result_type in result_types %}
                 {% ifnotequal test_result_type.uniquename  result_typeObj.uniquename %}
